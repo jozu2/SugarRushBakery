@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Galindo&display=swap");
+
+@media screen and (min-width: 200px) {
+  .navbar-contents {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 3em;
+    padding: 1rem 1rem;
+    z-index: 99;
+    .start {
+      button {
+        font-size: 0.6em;
+        border: none;
+        background-color: transparent;
+      }
+    }
+
+    .center {
+      position: absolute;
+      font-family: "Galindo", sans-serif;
+      font-size: 1.4em;
+      font-weight: bolder;
+    }
+  }
+
+  .end {
+    button {
+      font-size: 0.6em;
+      border: none;
+      background-color: transparent;
+    }
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .navbar-container {
+    height: 3em;
+    .start {
+      position: fixed;
+      button {
+        display: none;
+      }
+    }
+
+    .center {
+      position: fixed;
+      font-size: 1.2em;
+    }
+  }
+
+  .end {
+    position: fixed;
+    display: none;
+    button {
+      position: fixed;
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .navbar-container {
+    height: 3.5em;
+    .start {
+      button {
+        font-size: 0.85em;
+      }
+    }
+
+    .center {
+      font-size: 2em;
+    }
+  }
+
+  .end {
+    button {
+      font-size: 0.85em;
+    }
+  }
+}
+@media screen and (min-width: 800px) {
+  .navbar-container {
+    margin-top: 1.1em;
+    height: 3.5em;
+    .start {
+      button {
+        display: block;
+        left: 5%;
+        font-size: 0.95em;
+      }
+    }
+
+    .center {
+      left: 50%;
+      transform: translate(-50%);
+      font-size: 2em;
+    }
+  }
+
+  .end {
+    display: block;
+    right: 13%;
+
+    button {
+      font-size: 0.95em;
+      position: fixed;
+      right: 5%;
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .navbar-container {
+    height: 3.5em;
+    .start {
+      button {
+        font-size: 1em;
+      }
+    }
+
+    .center {
+      font-size: 2.5em;
+    }
+  }
+
+  .end {
+    button {
+      font-size: 1em;
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .navbar-container {
+    height: 4.3em;
+    .start {
+      button {
+        font-size: 1.2em;
+      }
+    }
+
+    .center {
+      font-size: 2.9em;
+    }
+  }
+
+  .end {
+    button {
+      font-size: 1.2em;
+    }
+  }
+}

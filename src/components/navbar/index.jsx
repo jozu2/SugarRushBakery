@@ -1,17 +1,22 @@
 import "./style.scss";
-
+import { FiShoppingCart } from "react-icons/fi";
 import React from "react";
 
 const index = () => {
   return (
     <>
       <div className="navbar-container">
-        <div className="start"></div>
-        <div className="center">
-          <div className="logo">Milk-Tea</div>
-        </div>
-        <div className="end">
-          <div className="hamburger-menu-container"></div>
+        <div className="navbar-contents">
+          <div className="start">
+            <button className="cart-logo">order now</button>
+          </div>
+          <div className="center">
+            <div className="logo">Sugar Rush Bakery</div>
+          </div>
+          <div className="end">
+            <FiShoppingCart />
+            <button className="login-btn">Sign-In</button>
+          </div>
         </div>
       </div>
     </>
