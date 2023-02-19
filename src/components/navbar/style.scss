@@ -24,6 +24,23 @@
       font-size: 1.4em;
       font-weight: bolder;
     }
+    .center {
+      .logo:hover {
+        cursor: pointer;
+        .span-1 {
+          transition: 0.3s;
+          color: #ebcdcd;
+        }
+        .span-2 {
+          transition: 0.3s;
+          color: #f0ddcf;
+        }
+        .span-3 {
+          transition: 0.3s;
+          color: #e3b9df;
+        }
+      }
+    }
   }
 
   .end {

@@ -5,6 +5,7 @@ import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
 const Carousel = () => {
   const [imageIndex, setImageIndex] = useState(0);
+
   return (
     <>
       <div className="carousel-container">
@@ -12,7 +13,6 @@ const Carousel = () => {
           className="carousel"
           style={{
             backgroundImage: `url(${images[imageIndex].img})`,
-            color: `${images[imageIndex].color}`,
           }}
         >
           <div className="carousel-content">

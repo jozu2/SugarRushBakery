@@ -11,7 +11,11 @@ const index = () => {
             <button className="cart-logo">order now</button>
           </div>
           <div className="center">
-            <div className="logo">Sugar Rush Bakery</div>
+            <div className="logo">
+              <span className="span-1">Sugar</span>{" "}
+              <span className="span-2">Rush</span>{" "}
+              <span className="span-3">Bakery</span>
+            </div>
           </div>
           <div className="end">
             <FiShoppingCart />
