@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&family=Short+Stack&display=swap");
 
-.home-container {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-}
 @media screen and (min-width: 200px) {
+  .home-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
   .ourCakes {
     text-align: center;
     width: 100%;
@@ -91,7 +92,7 @@
   .product-three-container {
     position: relative;
     img {
-      background-color: #ebcdcd;
+      background-color: #ecb6b6;
     }
   }
   .product-two-container {
@@ -103,7 +104,7 @@
   .product-one-container {
     position: relative;
     img {
-      background-color: #e3b9df;
+      background-color: #e7aec4;
     }
   }
   .ourProducts-container {
@@ -186,6 +187,7 @@
       top: 25%;
       width: 45%;
     }
+
     img {
       position: absolute;
       width: 50%;
