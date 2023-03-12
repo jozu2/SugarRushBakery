@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SugarRushBakery/static/css/main.a7ff4796.css",
+    "main.js": "/SugarRushBakery/static/js/main.90c71e0a.js",
+    "static/media/customOrder.png": "/SugarRushBakery/static/media/customOrder.1e021bb07b0e36e21a71.png",
+    "static/media/Ourcake-cakes.png": "/SugarRushBakery/static/media/Ourcake-cakes.ae6284007d9b59e844f7.png",
+    "static/media/custom2.png": "/SugarRushBakery/static/media/custom2.5ff03eabb866ba767750.png",
+    "static/media/customOrder3.png": "/SugarRushBakery/static/media/customOrder3.a3720d2f848ae52fc768.png",
+    "static/media/cupcake.png": "/SugarRushBakery/static/media/cupcake.ce10d7ff5da5a9bf6429.png",
+    "static/media/homecakewedding.jpg": "/SugarRushBakery/static/media/homecakewedding.71bd274ac5e60ba818eb.jpg",
+    "static/media/homecake.jpg": "/SugarRushBakery/static/media/homecake.4a2b23b7ec3fd313e1a7.jpg",
+    "static/media/pastry.png": "/SugarRushBakery/static/media/pastry.b58b0e4171bdf0783847.png",
+    "static/media/homebirthday.jpg": "/SugarRushBakery/static/media/homebirthday.0f1dbf67b9697124cc7b.jpg",
+    "index.html": "/SugarRushBakery/index.html",
+    "main.a7ff4796.css.map": "/SugarRushBakery/static/css/main.a7ff4796.css.map",
+    "main.90c71e0a.js.map": "/SugarRushBakery/static/js/main.90c71e0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7ff4796.css",
+    "static/js/main.90c71e0a.js"
+  ]
+}
