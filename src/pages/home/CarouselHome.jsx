@@ -40,7 +40,10 @@ const Carousel = () => {
       </div>
 
       <div className="custom-order-container">
-        <div className="bg-co">
+        <div
+          className="bg-co"
+          style={{ backgroundColor: `${images[imageIndex].bgcustomColor}` }}
+        >
           <div className="div-co-img">
             <img src={images[imageIndex].customImage}></img>
           </div>

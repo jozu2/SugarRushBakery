@@ -8,7 +8,7 @@ const index = () => {
       <div className="navbar-container">
         <div className="navbar-contents">
           <div className="start">
-            <button className="cart-logo">order now</button>
+            <button className="cart-logo">order now </button>
           </div>
           <div className="center">
             <div className="logo">
@@ -19,7 +19,7 @@ const index = () => {
           </div>
           <div className="end">
             <FiShoppingCart />
-            <button className="login-btn">Sign-In</button>
+            <button className="login-btn">Sign-In/Sign-Up</button>
           </div>
         </div>
       </div>

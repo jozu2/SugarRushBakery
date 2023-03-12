@@ -2,14 +2,17 @@
 
 @media screen and (min-width: 200px) {
   .navbar-contents {
+    overflow: hidden;
     display: flex;
-    position: relative;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 3em;
-    padding: 1rem 1rem;
+    padding: 1.8rem 1rem;
     z-index: 99;
+    background-color: white;
+    border-bottom: solid 0.245em rgb(214, 214, 214);
     .start {
       button {
         font-size: 0.6em;
@@ -23,21 +26,19 @@
       font-family: "Galindo", sans-serif;
       font-size: 1.4em;
       font-weight: bolder;
-    }
-    .center {
-      .logo:hover {
+      .logo {
         cursor: pointer;
+        text-shadow: -2px 0px 0px black, 1px 0px 0px black, 0px -2px 0px black,
+          0px 3px 0px black;
+
         .span-1 {
-          transition: 0.3s;
-          color: #ddb2b2;
+          color: #f7a1a1;
         }
         .span-2 {
-          transition: 0.3s;
-          color: #88d6c2;
+          color: #8becd4;
         }
         .span-3 {
-          transition: 0.3s;
-          color: #dfa7d9;
+          color: #f38ee9;
         }
       }
     }
@@ -48,13 +49,18 @@
       font-size: 0.6em;
       border: none;
       background-color: transparent;
+      cursor: pointer;
     }
   }
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 200px) {
+  .navbar-contents {
+    padding: 2rem 1rem;
+  }
   .navbar-container {
     height: 3em;
+
     .start {
       position: fixed;
       button {
@@ -64,7 +70,7 @@
 
     .center {
       position: fixed;
-      font-size: 1.2em;
+      font-size: 1.4em;
     }
   }
 
@@ -79,7 +85,7 @@
 
 @media screen and (min-width: 500px) {
   .navbar-container {
-    height: 3.5em;
+    height: 3.8em;
     .start {
       button {
         font-size: 0.85em;
@@ -98,8 +104,10 @@
   }
 }
 @media screen and (min-width: 800px) {
+  .navbar-contents {
+    padding: 2.3rem 1rem;
+  }
   .navbar-container {
-    margin-top: 1.1em;
     height: 3.5em;
     .start {
       button {
@@ -123,12 +131,15 @@
     button {
       font-size: 0.95em;
       position: fixed;
-      right: 5%;
+      right: 2%;
     }
   }
 }
 
 @media screen and (min-width: 1000px) {
+  .navbar-contents {
+    padding: 2.5rem 1rem;
+  }
   .navbar-container {
     height: 3.5em;
     .start {
@@ -150,8 +161,11 @@
 }
 
 @media screen and (min-width: 1400px) {
+  .navbar-contents {
+    padding: 2.6rem 1rem;
+  }
   .navbar-container {
-    height: 4.3em;
+    height: 5.2em;
     .start {
       button {
         font-size: 1.2em;

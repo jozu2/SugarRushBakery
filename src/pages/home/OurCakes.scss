@@ -4,7 +4,6 @@
   .home-container {
     width: 100%;
     height: auto;
-    overflow: hidden;
   }
 
   .ourCakes {
@@ -12,6 +11,9 @@
     width: 100%;
     margin: 2em 0 1em 0;
     font-size: 1.3em;
+
+    text-shadow: -2px 0px 0px rgb(255, 160, 160), 1px 0px 0px rgb(138, 236, 243),
+      0px -2px 0px rgb(245, 109, 233), 0px 2px 0px rgb(86, 231, 207);
   }
   .ourProducts-container {
     display: grid;
@@ -57,7 +59,8 @@
 
 @media screen and (min-width: 450px) {
   .ourCakes {
-    margin: 2.5em 0 1.5em 0;
+    font-size: 1.5em;
+    margin: 2.5em 0 1.3em 0;
   }
   .ourProducts-container {
     grid-template-columns: repeat(1, 380px);
@@ -87,7 +90,8 @@
 
 @media screen and (min-width: 700px) {
   .ourCakes {
-    margin: 3em 0 2em 0;
+    font-size: 1.7em;
+    margin: 3em 0 1.4em 0;
   }
   .product-three-container {
     position: relative;
@@ -172,8 +176,9 @@
 
 @media screen and (min-width: 1350px) {
   .ourCakes {
+    font-size: 1.9em;
     font-size: 2.3em;
-    margin: 3.5em 0 2.5em 0;
+    margin: 3.9em 0 1.5em 0;
   }
   .ourProducts-container {
     margin: 0em 0.3em;
